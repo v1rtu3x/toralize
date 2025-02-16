@@ -12,7 +12,7 @@ Toralize is a lightweight C-based tool for traversing a SOCKS4 proxy and connect
 gcc toralize.c -o toralize
 
 ### Running
-./toralize <ip> <port>
+./toralize ip port
 
 ### Example:
 ./toralize 192.168.1.1 80
