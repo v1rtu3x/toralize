@@ -1,27 +1,27 @@
-#Toralize
+# Toralize
 Toralize is a lightweight C-based tool for traversing a SOCKS4 proxy and connecting to a specified host and port. It sends an HTTP HEAD request to verify connectivity and displays the server response.
 
-##Features
+## Features
 ✅ Connects through a SOCKS4 proxy
 ✅ Establishes a connection to a target host and port
 ✅ Sends an HTTP HEAD request
 ✅ Displays server responses
 
-#Usage
-###Compiling
+# Usage
+### Compiling
 gcc toralize.c -o toralize
 
-###Running
+### Running
 ./toralize <ip> <port>
 
-###Example:
+### Example:
 ./toralize 192.168.1.1 80
 
-##Requirements
+## Requirements
 A SOCKS4 proxy server
 Linux/macOS with gcc installed
 
-##How It Works
+## How It Works
 Connects to a SOCKS4 proxy (PROXYPORT).
 Sends a connection request to the target IP:PORT.
 If successful, sends an HTTP HEAD request.
