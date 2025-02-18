@@ -8,8 +8,9 @@ Toralize is a lightweight C-based tool for traversing a SOCKS4 proxy and connect
 ✅ Displays server responses
 
 # Usage
+
 ### Compiling
-gcc toralize.c -o toralize
+gcc -shared -o toralize.so toralize.c -fPIC -ldl -D_GNU_SOURCE
 
 ### Running
 ./toralize ip port
